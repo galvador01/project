@@ -17,6 +17,14 @@ class Category(models.Model):
     def __str__(self):
         return self.category
 
+    def get_absolute_url(self):
+        try:
+            url = reverse('articles-category-list',
+                          kwargs={'slug': self.slug})
+        except:
+            url = "/"
+        return url
+
 
 class Article(models.Model):
     title = models.CharField(u'Заголовок', max_length=250,
@@ -81,3 +89,8 @@ class ArticleImage(models.Model):
     @property
     def filename(self):
         return self.image.name.rsplit('/', 1)[-1]
+
+    def test_category_view_status_code(self):
+        url = reverse('articles-category-list', args=('name',))
+        response = self.client.get(url)
+        self.assertEquals(response.status_code, 200)
