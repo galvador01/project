@@ -12,24 +12,27 @@ body {
 }
 
 div > h1 {
-   color: #fff;
+   color: #e50808;
    font-family: 'Ubuntu', sans-serif;
+}
+div > h2{
+    color: #a41515;
 }
 body > div > nav > div > a > h4 {
-   color: #fff;
-   font-family: 'Ubuntu', sans-serif;
+   color: #1c7707;
+   /*font-family: 'Ubuntu', sans-serif;*/
 }
 .article-block {
-   background: #fff;
-   color:  #383838;
-   font-family: 'Ubuntu', sans-serif;
-   box-shadow: 2px 2px 1px #ccc;
+   background: #b01515;
+   color: #4b3d12;
+   /*font-family: 'Ubuntu', sans-serif;*/
+   box-shadow: 2px 2px 1px #170b0b;
    padding: 10px;
    margin: 10px;
 }
 .article-block a {
-   color: #383838;
-   font-family: 'Ubuntu', sans-serif;
+   color: #997404;
+   /*font-family: 'Ubuntu', sans-serif;*/
 }
 
 body > div > nav > div{
@@ -37,8 +40,5 @@ body > div > nav > div{
 }
 div.container-image > img {
     width: 100%;
-}
-div > h1 {
-   color: #a41515;
 }
 
