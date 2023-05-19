@@ -18,27 +18,56 @@ div > h1 {
 div > h2{
     color: #a41515;
 }
+
 body > div > nav > div > a > h4 {
-   color: #1c7707;
-   /*font-family: 'Ubuntu', sans-serif;*/
+   color: #e50808;
+   font-family: 'Ubuntu', sans-serif;
 }
 .article-block {
-   background: #b01515;
-   color: #4b3d12;
-   /*font-family: 'Ubuntu', sans-serif;*/
+   background: #ffffff;
+   color: #3b392f;
+   font-family: 'Ubuntu', sans-serif;
    box-shadow: 2px 2px 1px #170b0b;
    padding: 10px;
    margin: 10px;
 }
 .article-block a {
-   color: #997404;
+   color: #700404;
    /*font-family: 'Ubuntu', sans-serif;*/
 }
-
-body > div > nav > div{
-    margin: 0 5px;
-}
 div.container-image > img {
-    width: 100%;
+    width: 50%;
 }
 
+body > div > a > h4{
+    color: #e50808;
+}
+body > div > div > ol > li{
+    color: #E50808FF;
+    margin-inline-start: 50px;
+}
+body > div > div > div:nth-child(2){
+    color: #e50808;
+}
+body > div > div > ol > li:nth-child(1) > a{
+     color: #e50808;
+}
+body > div > div > ol > li:nth-child(2) > a{
+     color: #e50808;
+}
+body > div > div > a{
+    color: #e50808;
+}
+body > div{
+    color: #222ec0;
+}
+
+body > div > div:nth-child(4),body > div > div:nth-child(6),body > div > div:nth-child(8) {
+    margin-block: 30px;
+}
+body > div > div > div:nth-child(3){
+    color: #e50808;
+}
+body > div > div > p{
+    color: #E50808FF;
+}
